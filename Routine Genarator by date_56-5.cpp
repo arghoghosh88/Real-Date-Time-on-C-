@@ -20,7 +20,7 @@ int main()
     else if(day[d->tm_wday]=="Monday")
     {
         cout<<"MAT-111"<<" "<<"[ 8:15 Am -  9:45 Am]"<<" "<<"Room no: 905{B2}"<<endl;
-        cout<<"CSE-111"<<" "<<"[ 9:15 Am - 11:15 Pm]"<<" "<<"Room no: 905{B2}"<<endl;
+        cout<<"CSE-111"<<" "<<"[ 9:45 Am - 11:15 Pm]"<<" "<<"Room no: 905{B2}"<<endl;
     }
     else if(day[d->tm_wday]=="Tuesday")
     {
@@ -31,7 +31,7 @@ int main()
     else if(day[d->tm_wday]=="Wednesday")
     {
         cout<<"EEE-101"<<" "<<"[ 8:15 Am -  9:45 Am]"<<" "<<"Room no: 709{B2}"<<endl;
-        cout<<"CSE-103"<<" "<<"[ 9:15 Am - 11:15 Pm]"<<" "<<"Room no: 709{B2}"<<endl;
+        cout<<"CSE-103"<<" "<<"[ 9:45 Am - 11:15 Pm]"<<" "<<"Room no: 709{B2}"<<endl;
     }
     else if(day[d->tm_wday]=="Thursday")
     {
@@ -45,3 +45,4 @@ int main()
         cout<<"Enjoy your day!"<<endl;
     }
 }
+
